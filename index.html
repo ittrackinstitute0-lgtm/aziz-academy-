@@ -1,0 +1,1756 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aziz Academy | Excellence in Education - Admissions Open 2026</title>
+  <meta name="description" content="Aziz Academy offers premier coaching for Matric (9th & 10th), FSc Pre-Medical, Pre-Engineering, ICS, MDCAT & ECAT Entry Test preparation. Enroll today for top board positions.">
+  <meta name="keywords" content="Aziz Academy, Matric Coaching, FSc Pre Medical, ICS Coaching, MDCAT Preparation, ECAT Test, Academy Lahore Karachi Islamabad">
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a',
+            },
+            gold: {
+              400: '#fbbf24',
+              500: '#f59e0b',
+              600: '#d97706',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts: Inter, Poppins & Amiri for Urdu styling -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-900 dark:text-slate-100 transition-colors duration-300">
+
+  <!-- ==================== TOP CONTACT & ANNOUNCEMENT BAR ==================== -->
+  <div class="bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-950 text-white text-xs py-2 px-4 border-b border-blue-700/50">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2">
+      <div class="flex flex-wrap items-center justify-center gap-4 md:gap-6">
+        <span class="flex items-center gap-1.5 font-medium">
+          <i class="fas fa-phone-alt text-yellow-400"></i>
+          <span>Admission Helpline: <strong>+92 (300) 123-4567</strong></span>
+        </span>
+        <span class="hidden sm:flex items-center gap-1.5 text-blue-200">
+          <i class="fas fa-envelope text-yellow-400"></i>
+          <span>admissions@azizacademy.edu.pk</span>
+        </span>
+        <span class="hidden lg:flex items-center gap-1.5 text-blue-200">
+          <i class="fas fa-clock text-yellow-400"></i>
+          <span>Mon - Sat: 8:00 AM - 8:30 PM</span>
+        </span>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <!-- Live count pill -->
+        <span id="admissions-live-count" class="bg-emerald-600/90 text-white px-2.5 py-0.5 rounded-full text-[11px] font-semibold flex items-center gap-1">
+          <span class="w-2 h-2 rounded-full bg-white pulse-dot"></span>
+          140+ Admissions This Week
+        </span>
+        
+        <!-- Social links -->
+        <div class="flex items-center gap-3 text-blue-200">
+          <a href="https://wa.me/923001234567" target="_blank" class="hover:text-green-400 transition-colors" title="WhatsApp"><i class="fab fa-whatsapp text-sm"></i></a>
+          <a href="#contact" class="hover:text-white transition-colors" title="Facebook"><i class="fab fa-facebook-f text-sm"></i></a>
+          <a href="#contact" class="hover:text-white transition-colors" title="YouTube"><i class="fab fa-youtube text-sm"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== MAIN STICKY NAVIGATION ==================== -->
+  <header class="sticky top-0 z-40 glass-header border-b border-slate-200 dark:border-slate-800 transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Academy Brand Logo -->
+        <a href="#home" class="flex items-center gap-3 group">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-blue-700 to-indigo-600 flex items-center justify-center text-white shadow-lg shadow-blue-600/30 group-hover:scale-105 transition-transform">
+            <!-- Academic Crest SVG -->
+            <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+            </svg>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-2xl font-black tracking-tight text-blue-900 dark:text-white font-['Poppins']">AZIZ</span>
+              <span class="text-2xl font-black text-amber-500 tracking-tight font-['Poppins']">ACADEMY</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <p class="text-[11px] font-semibold text-slate-500 dark:text-slate-400 tracking-wider uppercase">Excellence in Education</p>
+              <span class="text-[11px] font-bold text-amber-600 dark:text-amber-400 font-['Amiri']">عزیز اکیڈمی</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center gap-7">
+          <a href="#home" class="text-sm font-semibold text-slate-700 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Home</a>
+          <a href="#about" class="text-sm font-semibold text-slate-700 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">About Us</a>
+          <a href="#courses" class="text-sm font-semibold text-slate-700 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Programs</a>
+          <a href="#calculator" class="text-sm font-semibold text-slate-700 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Fee Calculator</a>
+          <a href="#toppers" class="text-sm font-semibold text-slate-700 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Toppers</a>
+          <a href="#facilities" class="text-sm font-semibold text-slate-700 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Campus</a>
+          <a href="#notices" class="text-sm font-semibold text-slate-700 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Notices</a>
+          <a href="#contact" class="text-sm font-semibold text-slate-700 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Contact</a>
+        </nav>
+
+        <!-- Header Actions: Dark Mode & Apply Button -->
+        <div class="flex items-center gap-3">
+          <!-- Dark Mode Toggle -->
+          <button id="theme-toggle" class="p-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all" aria-label="Toggle Theme">
+            <i id="theme-icon" class="fas fa-moon text-base"></i>
+          </button>
+
+          <!-- Apply Online Button -->
+          <button onclick="openAdmissionModal()" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold text-sm shadow-md shadow-blue-500/25 transition-all hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0">
+            <i class="fas fa-file-signature text-xs"></i>
+            <span>Apply For Admission</span>
+          </button>
+
+          <!-- Mobile Hamburger Menu Button -->
+          <button id="mobile-menu-btn" class="lg:hidden p-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-200 transition-colors" aria-label="Open Mobile Menu">
+            <i class="fas fa-bars text-lg"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MOBILE NAVIGATION DRAWER ==================== -->
+  <div id="drawer-overlay" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden transition-opacity"></div>
+  <aside id="mobile-drawer" class="fixed top-0 left-0 bottom-0 w-80 max-w-[85vw] bg-white dark:bg-slate-900 z-50 -translate-x-full transition-transform duration-300 shadow-2xl flex flex-col justify-between">
+    <div class="p-6">
+      <div class="flex items-center justify-between pb-6 border-b border-slate-200 dark:border-slate-800">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center text-white font-bold">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-lg text-slate-900 dark:text-white">Aziz Academy</h3>
+            <p class="text-xs text-amber-500 font-semibold font-['Amiri']">عزیز اکیڈمی</p>
+          </div>
+        </div>
+        <button id="close-mobile-menu" class="p-2 rounded-lg text-slate-400 hover:text-slate-600 dark:hover:text-white">
+          <i class="fas fa-times text-xl"></i>
+        </button>
+      </div>
+
+      <nav class="mt-6 flex flex-col gap-2">
+        <a href="#home" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 font-medium">
+          <i class="fas fa-home w-5 text-blue-600"></i> Home
+        </a>
+        <a href="#about" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 font-medium">
+          <i class="fas fa-info-circle w-5 text-blue-600"></i> About Us
+        </a>
+        <a href="#courses" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 font-medium">
+          <i class="fas fa-book-open w-5 text-blue-600"></i> Programs & Courses
+        </a>
+        <a href="#calculator" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 font-medium">
+          <i class="fas fa-calculator w-5 text-blue-600"></i> Fee Calculator
+        </a>
+        <a href="#toppers" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 font-medium">
+          <i class="fas fa-trophy w-5 text-blue-600"></i> Board Toppers
+        </a>
+        <a href="#facilities" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 font-medium">
+          <i class="fas fa-school w-5 text-blue-600"></i> Campus Facilities
+        </a>
+        <a href="#notices" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 font-medium">
+          <i class="fas fa-bullhorn w-5 text-blue-600"></i> Notice Board
+        </a>
+        <a href="#contact" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 font-medium">
+          <i class="fas fa-map-marker-alt w-5 text-blue-600"></i> Contact Us
+        </a>
+      </nav>
+    </div>
+
+    <div class="p-6 border-t border-slate-200 dark:border-slate-800">
+      <button onclick="openAdmissionModal()" class="w-full py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-center shadow-lg shadow-blue-500/25 mb-3 flex items-center justify-center gap-2">
+        <i class="fas fa-file-signature"></i> Apply Online Now
+      </button>
+      <a href="https://wa.me/923001234567" target="_blank" class="w-full py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-semibold flex items-center justify-center gap-2">
+        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+      </a>
+    </div>
+  </aside>
+
+  <!-- ==================== URGENT TICKER / NOTICE BAR ==================== -->
+  <section class="bg-amber-500 text-slate-950 text-xs font-semibold py-2 px-4 shadow-sm overflow-hidden flex items-center">
+    <div class="max-w-7xl mx-auto w-full flex items-center gap-3">
+      <span class="bg-black text-yellow-300 px-2 py-0.5 rounded text-[11px] font-bold tracking-wider uppercase whitespace-nowrap flex items-center gap-1">
+        <i class="fas fa-bolt"></i> Announcements
+      </span>
+      <div class="overflow-hidden relative w-full">
+        <div class="animate-marquee whitespace-nowrap flex items-center gap-8">
+          <span>🎓 <strong>Admissions Open 2026-2027</strong> for 9th, 10th, 1st Year, 2nd Year & MDCAT/ECAT. Early bird merit scholarships available up to 50%!</span>
+          <span>•</span>
+          <span>🏆 Congratulations to <strong>Ayesha Malik (1084/1100)</strong> for securing 1st Position in Science Group!</span>
+          <span>•</span>
+          <span>📝 <strong>Free Diagnostic Pre-Board Mock Test</strong> this Sunday at 10:00 AM. Register online now.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section id="home" class="relative academic-hero-bg pt-12 pb-20 lg:pt-20 lg:pb-28 overflow-hidden border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Content Column -->
+        <div class="lg:col-span-7 text-center lg:text-left">
+          
+          <!-- Badge -->
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-100 dark:bg-blue-950/80 border border-blue-200 dark:border-blue-800 text-blue-800 dark:text-blue-300 text-xs sm:text-sm font-semibold mb-6 shimmer-badge">
+            <span class="w-2 h-2 rounded-full bg-blue-600 dark:bg-blue-400"></span>
+            <span>⭐ Admissions Open for Academic Year 2026 - 2027</span>
+          </div>
+
+          <!-- Main Headline -->
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 dark:text-white tracking-tight leading-[1.15] font-['Poppins']">
+            Shaping Futures, <br class="hidden sm:inline">
+            <span class="bg-gradient-to-r from-blue-600 via-indigo-600 to-amber-500 bg-clip-text text-transparent">Inspiring Academic Excellence</span>
+          </h1>
+
+          <!-- Urdu Tagline -->
+          <p class="text-lg sm:text-xl font-semibold text-amber-700 dark:text-amber-400 mt-4 font-['Amiri']">
+            تعلیم، تربیت اور بورڈ امتحانات میں شاندار پوزیشنز کا قابل اعتماد ادارہ
+          </p>
+
+          <!-- English Description -->
+          <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 mt-4 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+            Welcome to <strong>Aziz Academy</strong>. We specialize in concept-driven education for Matric (9th & 10th), Intermediate (FSc Pre-Med, Pre-Eng, ICS) and Entry Tests (MDCAT/ECAT) with daily tests, Ph.D./M.Phil faculty, and dedicated individual mentoring.
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="mt-8 flex flex-wrap items-center justify-center lg:justify-start gap-4">
+            <button onclick="openAdmissionModal()" class="px-7 py-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-base shadow-xl shadow-blue-600/30 transition-all hover:scale-105 active:scale-100 flex items-center gap-3">
+              <i class="fas fa-user-graduate"></i>
+              <span>Apply Online Now</span>
+              <i class="fas fa-arrow-right text-xs"></i>
+            </button>
+
+            <a href="#calculator" class="px-6 py-4 rounded-xl bg-white dark:bg-slate-800 text-slate-800 dark:text-white font-semibold text-base border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 transition-all flex items-center gap-2">
+              <i class="fas fa-calculator text-amber-500"></i>
+              <span>Calculate Fees</span>
+            </a>
+
+            <a href="https://wa.me/923001234567?text=Assalam-o-Alaikum%20Aziz%20Academy,%20I%20want%20admission%20information." target="_blank" class="px-5 py-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-base transition-all flex items-center gap-2 shadow-md">
+              <i class="fab fa-whatsapp text-lg"></i>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+
+          <!-- Quick Trust Badges -->
+          <div class="mt-10 pt-8 border-t border-slate-200 dark:border-slate-800 grid grid-cols-3 gap-4 max-w-lg mx-auto lg:mx-0 text-center">
+            <div>
+              <p class="text-2xl sm:text-3xl font-black text-blue-600 dark:text-blue-400">98.5%</p>
+              <p class="text-xs text-slate-500 dark:text-slate-400 font-medium mt-0.5">Board Pass Ratio</p>
+            </div>
+            <div class="border-x border-slate-200 dark:border-slate-700">
+              <p class="text-2xl sm:text-3xl font-black text-amber-500">15+ Years</p>
+              <p class="text-xs text-slate-500 dark:text-slate-400 font-medium mt-0.5">Academic Legacy</p>
+            </div>
+            <div>
+              <p class="text-2xl sm:text-3xl font-black text-emerald-600 dark:text-emerald-400">5,000+</p>
+              <p class="text-xs text-slate-500 dark:text-slate-400 font-medium mt-0.5">Successful Alumni</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Visual Card Column -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative mx-auto max-w-md lg:max-w-none">
+            
+            <!-- Background Glow -->
+            <div class="absolute -top-6 -left-6 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl"></div>
+            <div class="absolute -bottom-6 -right-6 w-72 h-72 bg-amber-500/20 rounded-full blur-3xl"></div>
+
+            <!-- Glass Feature Card -->
+            <div class="relative glass-card rounded-2xl shadow-2xl p-6 sm:p-8 border border-white/60 dark:border-slate-700/60 float-animation">
+              
+              <div class="flex items-center justify-between pb-4 border-b border-slate-200 dark:border-slate-700">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center font-bold text-lg">
+                    <i class="fas fa-medal"></i>
+                  </div>
+                  <div>
+                    <h3 class="font-bold text-slate-900 dark:text-white text-base">Admissions Desk 2026</h3>
+                    <p class="text-xs text-emerald-600 dark:text-emerald-400 font-medium">● Registrations Active</p>
+                  </div>
+                </div>
+                <span class="text-xs bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 font-bold px-2.5 py-1 rounded-full">Phase 1</span>
+              </div>
+
+              <!-- Feature Bullet points -->
+              <div class="mt-6 space-y-4">
+                <div class="flex items-start gap-3.5 p-3 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-700/40">
+                  <div class="w-8 h-8 rounded-lg bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0">
+                    <i class="fas fa-chalkboard-teacher text-sm"></i>
+                  </div>
+                  <div>
+                    <h4 class="text-sm font-bold text-slate-900 dark:text-white">Expert College Faculty</h4>
+                    <p class="text-xs text-slate-500 dark:text-slate-400">Lectures by experienced subject heads & authors</p>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-3.5 p-3 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-700/40">
+                  <div class="w-8 h-8 rounded-lg bg-amber-100 dark:bg-amber-900/50 text-amber-600 dark:text-amber-400 flex items-center justify-center shrink-0">
+                    <i class="fas fa-tasks text-sm"></i>
+                  </div>
+                  <div>
+                    <h4 class="text-sm font-bold text-slate-900 dark:text-white">Daily & Sunday Test Sessions</h4>
+                    <p class="text-xs text-slate-500 dark:text-slate-400">Chapter-wise, quarter & full-book pre-board mocks</p>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-3.5 p-3 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-700/40">
+                  <div class="w-8 h-8 rounded-lg bg-emerald-100 dark:bg-emerald-900/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0">
+                    <i class="fas fa-award text-sm"></i>
+                  </div>
+                  <div>
+                    <h4 class="text-sm font-bold text-slate-900 dark:text-white">Merit Scholarship Test</h4>
+                    <p class="text-xs text-slate-500 dark:text-slate-400">Up to 50% tuition waiver for 85%+ scorers</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Quick action box in card -->
+              <div class="mt-6 pt-4 border-t border-slate-200 dark:border-slate-700 flex flex-col gap-2.5">
+                <button onclick="openAdmissionModal('matric-sci')" class="w-full py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm text-center shadow-lg shadow-blue-500/20 transition-all flex items-center justify-center gap-2">
+                  <i class="fas fa-edit"></i> Fill Online Admission Form
+                </button>
+                <p class="text-[11px] text-center text-slate-400">Generates instant printable student token slip</p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT US & PRINCIPAL MESSAGE ==================== -->
+  <section id="about" class="py-16 sm:py-24 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Image & Director Box -->
+        <div class="lg:col-span-5">
+          <div class="relative">
+            <div class="rounded-2xl overflow-hidden shadow-2xl border-4 border-slate-100 dark:border-slate-800 aspect-[4/5] max-w-sm mx-auto">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80" alt="Prof. Muhammad Aziz - Principal" class="w-full h-full object-cover">
+            </div>
+
+            <!-- Floating Director Card -->
+            <div class="absolute -bottom-6 -right-2 sm:right-6 bg-white dark:bg-slate-800 rounded-xl shadow-xl p-4 border border-slate-200 dark:border-slate-700 max-w-xs">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center text-blue-600 dark:text-blue-400 font-bold">
+                  <i class="fas fa-quote-left"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-sm text-slate-900 dark:text-white">Prof. Muhammad Aziz</h4>
+                  <p class="text-xs text-blue-600 dark:text-blue-400 font-semibold">Founder & Executive Director</p>
+                </div>
+              </div>
+              <p class="text-[12px] text-slate-600 dark:text-slate-300 mt-2 italic font-['Amiri']">
+                "ہمارا عزم صرف ڈگری نہیں بلکہ طلبہ کی ذہنی صلاحیتوں کو نکھار کر انہیں مستقبل کا معمار بنانا ہے۔"
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Narrative -->
+        <div class="lg:col-span-7">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-blue-50 dark:bg-blue-950 text-blue-600 dark:text-blue-400 text-xs font-bold uppercase tracking-wider mb-3">
+            About Aziz Academy
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight font-['Poppins']">
+            Dedicated to Academic Brilliance & Moral Discipline Since 2010
+          </h2>
+
+          <p class="text-slate-600 dark:text-slate-300 mt-4 leading-relaxed">
+            Founded with a vision to revolutionize coaching education in Pakistan, <strong>Aziz Academy</strong> has emerged as a premier educational institute. Over the past 15 years, our students have consistently secured top positions in Board Examinations and secured admissions in prestigious medical universities (King Edward, Allama Iqbal, Dow, Rawalpindi Medical) and top engineering institutions (UET, NUST, FAST, GIKI).
+          </p>
+
+          <p class="text-slate-600 dark:text-slate-300 mt-3 leading-relaxed">
+            We reject rote learning. Our pedagogy emphasizes conceptual clarity, real-world application, exam-oriented speed solving, and continuous evaluation through computerized test monitoring.
+          </p>
+
+          <!-- Core Values Grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
+            <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 flex items-start gap-3">
+              <span class="text-blue-600 text-lg"><i class="fas fa-check-circle"></i></span>
+              <div>
+                <h4 class="font-bold text-sm text-slate-900 dark:text-white">Strict Disciplinary Standard</h4>
+                <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Zero tolerance for indiscipline; punctual attendance tracking</p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 flex items-start gap-3">
+              <span class="text-amber-500 text-lg"><i class="fas fa-check-circle"></i></span>
+              <div>
+                <h4 class="font-bold text-sm text-slate-900 dark:text-white">Separate Batches For Girls & Boys</h4>
+                <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Comfortable, dedicated learning environment with female chaperones</p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 flex items-start gap-3">
+              <span class="text-emerald-500 text-lg"><i class="fas fa-check-circle"></i></span>
+              <div>
+                <h4 class="font-bold text-sm text-slate-900 dark:text-white">Chapter-wise Test Sessions</h4>
+                <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Board-standard marking and personal teacher feedback</p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 flex items-start gap-3">
+              <span class="text-indigo-500 text-lg"><i class="fas fa-check-circle"></i></span>
+              <div>
+                <h4 class="font-bold text-sm text-slate-900 dark:text-white">Parent-Teacher Bridge</h4>
+                <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Bi-weekly SMS and WhatsApp progress reports sent directly to parents</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== ACADEMIC PROGRAMS & COURSES ==================== -->
+  <section id="courses" class="py-16 sm:py-24 bg-slate-50 dark:bg-slate-900/60 border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 text-xs font-bold uppercase tracking-wider mb-2">
+          Academic Offerings
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight font-['Poppins']">
+          Programs Tailored for Board & University Success
+        </h2>
+        <p class="text-slate-600 dark:text-slate-400 mt-3 text-sm sm:text-base">
+          Choose from our structured coaching programs designed by seasoned educationalists to guarantee mastery in each subject.
+        </p>
+
+        <!-- Course Category Filters -->
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-2">
+          <button class="course-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-blue-600 text-white shadow-md transition-all" data-filter="all">All Programs</button>
+          <button class="course-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:bg-slate-100 transition-all" data-filter="matric">Matric (9th & 10th)</button>
+          <button class="course-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:bg-slate-100 transition-all" data-filter="inter">Intermediate (FSc / ICS)</button>
+          <button class="course-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:bg-slate-100 transition-all" data-filter="entrytest">Entry Test (MDCAT/ECAT)</button>
+          <button class="course-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:bg-slate-100 transition-all" data-filter="skills">Skill Development</button>
+        </div>
+      </div>
+
+      <!-- Course Cards Grid -->
+      <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- CARD 1: Matric Science -->
+        <div class="course-card bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-lg overflow-hidden flex flex-col justify-between hover:shadow-xl hover:-translate-y-1 transition-all" data-category="matric">
+          <div>
+            <div class="h-44 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80" alt="Matric Science" class="w-full h-full object-cover">
+              <span class="absolute top-3 right-3 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">Class 9th & 10th</span>
+            </div>
+            <div class="p-6">
+              <div class="flex items-center gap-2 text-xs font-semibold text-blue-600 dark:text-blue-400 uppercase tracking-wider">
+                <i class="fas fa-atom"></i> Matriculation Science
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 dark:text-white mt-1">SSC Board Prep (Science & Computer)</h3>
+              <p class="text-slate-600 dark:text-slate-300 text-xs sm:text-sm mt-2 line-clamp-2">
+                Complete coverage of Physics, Chemistry, Biology/Math with daily test sessions, board model papers, and practical classes.
+              </p>
+              <div class="mt-4 pt-4 border-t border-slate-100 dark:border-slate-700/60 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
+                <span><i class="far fa-clock text-amber-500 mr-1"></i> Morning & Evening</span>
+                <span class="font-bold text-slate-800 dark:text-slate-200">Rs. 7,500/mo</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-6 pt-0 flex gap-2">
+            <button onclick="openSyllabusModal('matric-sci')" class="flex-1 py-2.5 rounded-xl border border-slate-300 dark:border-slate-600 text-xs font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors">
+              View Syllabus
+            </button>
+            <button onclick="openAdmissionModal('matric-sci')" class="flex-1 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shadow-md transition-colors">
+              Enroll Now
+            </button>
+          </div>
+        </div>
+
+        <!-- CARD 2: FSc Pre-Medical -->
+        <div class="course-card bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-lg overflow-hidden flex flex-col justify-between hover:shadow-xl hover:-translate-y-1 transition-all" data-category="inter">
+          <div>
+            <div class="h-44 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=800&q=80" alt="FSc Pre-Medical" class="w-full h-full object-cover">
+              <span class="absolute top-3 right-3 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">HSSC Part 1 & 2</span>
+            </div>
+            <div class="p-6">
+              <div class="flex items-center gap-2 text-xs font-semibold text-emerald-600 dark:text-emerald-400 uppercase tracking-wider">
+                <i class="fas fa-heartbeat"></i> Medical Stream
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 dark:text-white mt-1">FSc Pre-Medical Excellence Batch</h3>
+              <p class="text-slate-600 dark:text-slate-300 text-xs sm:text-sm mt-2 line-clamp-2">
+                Rigorous biology, physics, and organic chemistry guidance designed to maximize FSc marks for guaranteed medical college merit.
+              </p>
+              <div class="mt-4 pt-4 border-t border-slate-100 dark:border-slate-700/60 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
+                <span><i class="far fa-clock text-amber-500 mr-1"></i> Boys & Girls Batches</span>
+                <span class="font-bold text-slate-800 dark:text-slate-200">Rs. 9,500/mo</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-6 pt-0 flex gap-2">
+            <button onclick="openSyllabusModal('fsc-med')" class="flex-1 py-2.5 rounded-xl border border-slate-300 dark:border-slate-600 text-xs font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors">
+              View Syllabus
+            </button>
+            <button onclick="openAdmissionModal('fsc-med')" class="flex-1 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shadow-md transition-colors">
+              Enroll Now
+            </button>
+          </div>
+        </div>
+
+        <!-- CARD 3: FSc Pre-Engineering -->
+        <div class="course-card bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-lg overflow-hidden flex flex-col justify-between hover:shadow-xl hover:-translate-y-1 transition-all" data-category="inter">
+          <div>
+            <div class="h-44 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80" alt="FSc Pre-Engineering" class="w-full h-full object-cover">
+              <span class="absolute top-3 right-3 bg-indigo-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">HSSC Part 1 & 2</span>
+            </div>
+            <div class="p-6">
+              <div class="flex items-center gap-2 text-xs font-semibold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider">
+                <i class="fas fa-drafting-compass"></i> Engineering Stream
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 dark:text-white mt-1">FSc Pre-Engineering Master Batch</h3>
+              <p class="text-slate-600 dark:text-slate-300 text-xs sm:text-sm mt-2 line-clamp-2">
+                Master advanced calculus, physics derivations, and chemistry equations with daily practice sheets and problem clinics.
+              </p>
+              <div class="mt-4 pt-4 border-t border-slate-100 dark:border-slate-700/60 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
+                <span><i class="far fa-clock text-amber-500 mr-1"></i> Morning & Evening</span>
+                <span class="font-bold text-slate-800 dark:text-slate-200">Rs. 9,500/mo</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-6 pt-0 flex gap-2">
+            <button onclick="openSyllabusModal('fsc-eng')" class="flex-1 py-2.5 rounded-xl border border-slate-300 dark:border-slate-600 text-xs font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors">
+              View Syllabus
+            </button>
+            <button onclick="openAdmissionModal('fsc-eng')" class="flex-1 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shadow-md transition-colors">
+              Enroll Now
+            </button>
+          </div>
+        </div>
+
+        <!-- CARD 4: ICS Computer Science -->
+        <div class="course-card bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-lg overflow-hidden flex flex-col justify-between hover:shadow-xl hover:-translate-y-1 transition-all" data-category="inter">
+          <div>
+            <div class="h-44 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80" alt="ICS Computer Science" class="w-full h-full object-cover">
+              <span class="absolute top-3 right-3 bg-purple-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">ICS Part 1 & 2</span>
+            </div>
+            <div class="p-6">
+              <div class="flex items-center gap-2 text-xs font-semibold text-purple-600 dark:text-purple-400 uppercase tracking-wider">
+                <i class="fas fa-laptop-code"></i> IT & Computing
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 dark:text-white mt-1">ICS (Computer Science, Stats, Math)</h3>
+              <p class="text-slate-600 dark:text-slate-300 text-xs sm:text-sm mt-2 line-clamp-2">
+                Programming practicals in C++, modern database theory, advanced mathematics, and logic building in computer labs.
+              </p>
+              <div class="mt-4 pt-4 border-t border-slate-100 dark:border-slate-700/60 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
+                <span><i class="far fa-clock text-amber-500 mr-1"></i> Core i7 Lab Included</span>
+                <span class="font-bold text-slate-800 dark:text-slate-200">Rs. 9,000/mo</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-6 pt-0 flex gap-2">
+            <button onclick="openSyllabusModal('ics-stat')" class="flex-1 py-2.5 rounded-xl border border-slate-300 dark:border-slate-600 text-xs font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors">
+              View Syllabus
+            </button>
+            <button onclick="openAdmissionModal('ics-stat')" class="flex-1 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shadow-md transition-colors">
+              Enroll Now
+            </button>
+          </div>
+        </div>
+
+        <!-- CARD 5: MDCAT Prep -->
+        <div class="course-card bg-white dark:bg-slate-800 rounded-2xl border-2 border-amber-500/50 shadow-lg overflow-hidden flex flex-col justify-between hover:shadow-xl hover:-translate-y-1 transition-all" data-category="entrytest">
+          <div>
+            <div class="h-44 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80" alt="MDCAT Prep" class="w-full h-full object-cover">
+              <span class="absolute top-3 right-3 bg-amber-500 text-slate-950 text-xs font-black px-3 py-1 rounded-full shadow">Flagship Batch</span>
+            </div>
+            <div class="p-6">
+              <div class="flex items-center gap-2 text-xs font-semibold text-amber-600 dark:text-amber-400 uppercase tracking-wider">
+                <i class="fas fa-stethoscope"></i> Medical Entrance Exam
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 dark:text-white mt-1">MDCAT Intensive Crash & FLP Session</h3>
+              <p class="text-slate-600 dark:text-slate-300 text-xs sm:text-sm mt-2 line-clamp-2">
+                10,000+ MCQs, daily unit-wise OMR tests, 30+ Full Length Papers (FLPs), and time-management shortcuts for PMDC MDCAT.
+              </p>
+              <div class="mt-4 pt-4 border-t border-slate-100 dark:border-slate-700/60 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
+                <span><i class="far fa-clock text-amber-500 mr-1"></i> 14 Weeks Sprint</span>
+                <span class="font-bold text-amber-600 dark:text-amber-400">Complete Series</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-6 pt-0 flex gap-2">
+            <button onclick="openSyllabusModal('mdcat-prep')" class="flex-1 py-2.5 rounded-xl border border-slate-300 dark:border-slate-600 text-xs font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors">
+              View Syllabus
+            </button>
+            <button onclick="openAdmissionModal('mdcat-prep')" class="flex-1 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 text-xs font-bold shadow-md transition-colors">
+              Enroll Now
+            </button>
+          </div>
+        </div>
+
+        <!-- CARD 6: ECAT & NUST NET Prep -->
+        <div class="course-card bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-lg overflow-hidden flex flex-col justify-between hover:shadow-xl hover:-translate-y-1 transition-all" data-category="entrytest">
+          <div>
+            <div class="h-44 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80" alt="ECAT & NUST Prep" class="w-full h-full object-cover">
+              <span class="absolute top-3 right-3 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">Engineering Entrance</span>
+            </div>
+            <div class="p-6">
+              <div class="flex items-center gap-2 text-xs font-semibold text-red-600 dark:text-red-400 uppercase tracking-wider">
+                <i class="fas fa-cogs"></i> Engineering Tests
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 dark:text-white mt-1">ECAT / NUST (NET) / FAST & GIKI Series</h3>
+              <p class="text-slate-600 dark:text-slate-300 text-xs sm:text-sm mt-2 line-clamp-2">
+                Special speed-solving math shortcuts without calculators, analytical physics, and computer-based online testing simulations.
+              </p>
+              <div class="mt-4 pt-4 border-t border-slate-100 dark:border-slate-700/60 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
+                <span><i class="far fa-clock text-amber-500 mr-1"></i> Computer Lab Prep</span>
+                <span class="font-bold text-slate-800 dark:text-slate-200">Complete Series</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-6 pt-0 flex gap-2">
+            <button onclick="openSyllabusModal('ecat-prep')" class="flex-1 py-2.5 rounded-xl border border-slate-300 dark:border-slate-600 text-xs font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors">
+              View Syllabus
+            </button>
+            <button onclick="openAdmissionModal('ecat-prep')" class="flex-1 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shadow-md transition-colors">
+              Enroll Now
+            </button>
+          </div>
+        </div>
+
+        <!-- CARD 7: Spoken English & IELTS -->
+        <div class="course-card bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-lg overflow-hidden flex flex-col justify-between hover:shadow-xl hover:-translate-y-1 transition-all" data-category="skills">
+          <div>
+            <div class="h-44 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Spoken English" class="w-full h-full object-cover">
+              <span class="absolute top-3 right-3 bg-teal-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">2 Months</span>
+            </div>
+            <div class="p-6">
+              <div class="flex items-center gap-2 text-xs font-semibold text-teal-600 dark:text-teal-400 uppercase tracking-wider">
+                <i class="fas fa-language"></i> Language Skills
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 dark:text-white mt-1">Spoken English & IELTS Masterclass</h3>
+              <p class="text-slate-600 dark:text-slate-300 text-xs sm:text-sm mt-2 line-clamp-2">
+                Overcome hesitation, master British/American pronunciation, public speaking, grammar refinement, and IELTS 7.5+ band strategies.
+              </p>
+              <div class="mt-4 pt-4 border-t border-slate-100 dark:border-slate-700/60 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
+                <span><i class="far fa-clock text-amber-500 mr-1"></i> Evening 3 Days/Wk</span>
+                <span class="font-bold text-slate-800 dark:text-slate-200">Rs. 6,000/mo</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-6 pt-0 flex gap-2">
+            <button onclick="openSyllabusModal('spoken-eng')" class="flex-1 py-2.5 rounded-xl border border-slate-300 dark:border-slate-600 text-xs font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors">
+              View Syllabus
+            </button>
+            <button onclick="openAdmissionModal('spoken-eng')" class="flex-1 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shadow-md transition-colors">
+              Enroll Now
+            </button>
+          </div>
+        </div>
+
+        <!-- CARD 8: IT & Python Bootcamp -->
+        <div class="course-card bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-lg overflow-hidden flex flex-col justify-between hover:shadow-xl hover:-translate-y-1 transition-all" data-category="skills">
+          <div>
+            <div class="h-44 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80" alt="Coding Bootcamp" class="w-full h-full object-cover">
+              <span class="absolute top-3 right-3 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">3 Months Practical</span>
+            </div>
+            <div class="p-6">
+              <div class="flex items-center gap-2 text-xs font-semibold text-emerald-600 dark:text-emerald-400 uppercase tracking-wider">
+                <i class="fas fa-code"></i> Coding & Freelancing
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 dark:text-white mt-1">Python, Web & Freelancing Bootcamp</h3>
+              <p class="text-slate-600 dark:text-slate-300 text-xs sm:text-sm mt-2 line-clamp-2">
+                Learn modern HTML/CSS, JavaScript, Python coding basics, Git/GitHub, and start earning on Upwork/Fiverr with portfolio projects.
+              </p>
+              <div class="mt-4 pt-4 border-t border-slate-100 dark:border-slate-700/60 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
+                <span><i class="far fa-clock text-amber-500 mr-1"></i> Weekend Special</span>
+                <span class="font-bold text-slate-800 dark:text-slate-200">Rs. 8,000/mo</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-6 pt-0 flex gap-2">
+            <button onclick="openSyllabusModal('it-coding')" class="flex-1 py-2.5 rounded-xl border border-slate-300 dark:border-slate-600 text-xs font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors">
+              View Syllabus
+            </button>
+            <button onclick="openAdmissionModal('it-coding')" class="flex-1 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shadow-md transition-colors">
+              Enroll Now
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== INTERACTIVE FEE CALCULATOR ==================== -->
+  <section id="calculator" class="py-16 sm:py-24 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-400 text-xs font-bold uppercase tracking-wider mb-2">
+          Transparent Pricing
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight font-['Poppins']">
+          Interactive Fee & Scholarship Calculator
+        </h2>
+        <p class="text-slate-600 dark:text-slate-400 mt-2 text-sm sm:text-base">
+          Select your class, shift, and previous board exam percentage to view monthly fees and instant merit scholarship concessions.
+        </p>
+      </div>
+
+      <!-- Calculator Card Grid -->
+      <div class="bg-slate-50 dark:bg-slate-800/80 rounded-3xl p-6 sm:p-10 border border-slate-200 dark:border-slate-700 shadow-xl grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        
+        <!-- Left Inputs Form -->
+        <div class="lg:col-span-7 space-y-5">
+          
+          <!-- Class Selector -->
+          <div>
+            <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-2">1. Select Class / Program</label>
+            <select id="calc-class" class="w-full px-4 py-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-white font-medium focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all">
+              <option value="9th">9th Class (Matric Science / Arts)</option>
+              <option value="10th">10th Class (Board Exam Batch)</option>
+              <option value="11th" selected>11th Class / 1st Year (FSc / ICS)</option>
+              <option value="12th">12th Class / 2nd Year (FSc / ICS)</option>
+              <option value="mdcat">MDCAT Full Test & Crash Session</option>
+              <option value="ecat">ECAT & Engineering Entrance Prep</option>
+              <option value="skills">Skill Course (Spoken English / IT)</option>
+            </select>
+          </div>
+
+          <!-- Shift & Schedule -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-2">2. Batch Preference</label>
+              <select id="calc-shift" class="w-full px-4 py-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-white font-medium focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                <option value="regular">Regular Evening (Mon-Fri)</option>
+                <option value="weekend">Weekend Special (Sat & Sun)</option>
+                <option value="crash">Intensive Crash Course</option>
+              </select>
+            </div>
+
+            <!-- Previous Marks / Percentage -->
+            <div>
+              <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-2">3. Previous Board % (Marks)</label>
+              <div class="relative">
+                <input id="calc-marks" type="number" min="0" max="100" placeholder="e.g. 88" class="w-full px-4 py-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-white font-medium focus:ring-2 focus:ring-blue-500 focus:outline-none pr-10">
+                <span class="absolute right-3.5 top-3.5 text-slate-400 font-bold text-sm">%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Add-ons: Sunday Test Series -->
+          <div class="p-4 rounded-xl bg-white dark:bg-slate-900/60 border border-slate-200 dark:border-slate-700 flex items-center gap-3">
+            <input id="calc-test-session" type="checkbox" checked class="w-5 h-5 rounded text-blue-600 focus:ring-blue-500">
+            <div>
+              <label for="calc-test-session" class="text-sm font-bold text-slate-800 dark:text-slate-200 cursor-pointer">
+                Include Sunday Grand Test Series & Pre-Board Mocks
+              </label>
+              <p class="text-xs text-slate-500 dark:text-slate-400">Includes OMR sheets, computerized reports, and teacher evaluations (+Rs. 2,500)</p>
+            </div>
+          </div>
+
+          <!-- Buttons -->
+          <div class="flex items-center gap-3 pt-2">
+            <button id="calc-btn" class="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md transition-colors flex items-center gap-2">
+              <i class="fas fa-sync-alt"></i> Update Calculation
+            </button>
+            <button id="calc-reset" class="px-4 py-3 rounded-xl bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-semibold text-sm hover:bg-slate-300 transition-colors">
+              Reset
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Right Summary Receipt Box -->
+        <div class="lg:col-span-5 bg-white dark:bg-slate-900 rounded-2xl p-6 sm:p-8 border border-blue-200 dark:border-slate-700 shadow-xl">
+          <div class="text-center pb-5 border-b border-dashed border-slate-200 dark:border-slate-700">
+            <span class="text-xs font-extrabold uppercase tracking-widest text-blue-600 dark:text-blue-400">Aziz Academy Fee Estimation</span>
+            <h3 class="text-lg font-black text-slate-900 dark:text-white mt-1">Official Fee Quote</h3>
+          </div>
+
+          <div class="mt-5 space-y-3 text-sm">
+            <div class="flex justify-between items-center text-slate-600 dark:text-slate-400">
+              <span>Standard Tuition Fee:</span>
+              <span id="calc-base-fee" class="font-bold text-slate-900 dark:text-white">Rs. 9,500</span>
+            </div>
+            
+            <div class="flex justify-between items-center text-emerald-600 dark:text-emerald-400 font-medium">
+              <span>Merit Scholarship Waiver:</span>
+              <span id="calc-discount" class="font-bold">- Rs. 0 (0%)</span>
+            </div>
+
+            <div class="flex justify-between items-center text-slate-600 dark:text-slate-400">
+              <span>Sunday Grand Test Session:</span>
+              <span id="calc-test-fee" class="font-bold text-slate-900 dark:text-white">+ Rs. 2,500</span>
+            </div>
+          </div>
+
+          <!-- Total Highlight Box -->
+          <div class="mt-6 p-4 rounded-xl bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-slate-800 dark:to-slate-800/80 border border-blue-100 dark:border-slate-700 text-center">
+            <p class="text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">Estimated Net Payable</p>
+            <p id="calc-total-fee" class="text-3xl sm:text-4xl font-black text-blue-700 dark:text-blue-400 mt-1">Rs. 12,000</p>
+            <span id="calc-scholarship-badge" class="mt-2 text-xs text-slate-500 dark:text-slate-400 block">Enter marks >= 70% to unlock merit scholarships</span>
+          </div>
+
+          <!-- Enroll with this plan CTA -->
+          <button id="calc-enroll-btn" class="w-full mt-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow-lg shadow-emerald-600/20 transition-all flex items-center justify-center gap-2">
+            <i class="fas fa-check-circle"></i> Enroll With This Plan
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== BOARD TOPPERS & HALL OF FAME ==================== -->
+  <section id="toppers" class="py-16 sm:py-24 bg-slate-50 dark:bg-slate-900/40 border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-400 text-xs font-bold uppercase tracking-wider mb-2">
+          <i class="fas fa-crown"></i> Hall of Fame
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight font-['Poppins']">
+          Our Shining Stars & Board Position Holders
+        </h2>
+        <p class="text-slate-600 dark:text-slate-400 mt-2 text-sm sm:text-base">
+          Consistent results year after year. Meet the high achievers who brought glory to Aziz Academy and their families.
+        </p>
+      </div>
+
+      <!-- Toppers Cards Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Topper 1 -->
+        <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 border-2 border-amber-400/80 shadow-xl relative overflow-hidden text-center group hover:-translate-y-2 transition-transform duration-300">
+          <div class="absolute -top-3 -right-3 bg-amber-500 text-slate-950 text-[10px] font-black px-4 py-1.5 rounded-full shadow rotate-12">
+            1st Position
+          </div>
+          <div class="w-24 h-24 rounded-full mx-auto overflow-hidden border-4 border-amber-400 shadow-md">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80" alt="Ayesha Malik" class="w-full h-full object-cover">
+          </div>
+          <h3 class="font-bold text-lg text-slate-900 dark:text-white mt-4">Ayesha Malik</h3>
+          <p class="text-xs font-semibold text-blue-600 dark:text-blue-400">FSc Pre-Medical (2025)</p>
+          <div class="my-3 py-2 bg-amber-50 dark:bg-slate-900 rounded-xl border border-amber-200 dark:border-slate-700">
+            <p class="text-2xl font-black text-amber-600 dark:text-amber-400">1084 <span class="text-xs text-slate-500">/ 1100</span></p>
+            <p class="text-[11px] font-bold text-slate-600 dark:text-slate-300">Overall 1st in BISE Board</p>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 italic">"Aziz Academy's daily test sessions and continuous feedback helped me secure admission at King Edward Medical University."</p>
+        </div>
+
+        <!-- Topper 2 -->
+        <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 shadow-lg relative overflow-hidden text-center group hover:-translate-y-2 transition-transform duration-300">
+          <div class="w-24 h-24 rounded-full mx-auto overflow-hidden border-4 border-blue-500 shadow-md">
+            <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=400&q=80" alt="Hamza Tariq" class="w-full h-full object-cover">
+          </div>
+          <h3 class="font-bold text-lg text-slate-900 dark:text-white mt-4">Hamza Tariq</h3>
+          <p class="text-xs font-semibold text-blue-600 dark:text-blue-400">MDCAT Topper (2025)</p>
+          <div class="my-3 py-2 bg-blue-50 dark:bg-slate-900 rounded-xl border border-blue-200 dark:border-slate-700">
+            <p class="text-2xl font-black text-blue-600 dark:text-blue-400">192 <span class="text-xs text-slate-500">/ 200</span></p>
+            <p class="text-[11px] font-bold text-slate-600 dark:text-slate-300">96% Score in MDCAT</p>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 italic">"The 30 Full Length Papers and PMDC past paper analysis eliminated all my test anxiety."</p>
+        </div>
+
+        <!-- Topper 3 -->
+        <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 shadow-lg relative overflow-hidden text-center group hover:-translate-y-2 transition-transform duration-300">
+          <div class="w-24 h-24 rounded-full mx-auto overflow-hidden border-4 border-indigo-500 shadow-md">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80" alt="Bilal Ahmed" class="w-full h-full object-cover">
+          </div>
+          <h3 class="font-bold text-lg text-slate-900 dark:text-white mt-4">Bilal Ahmed</h3>
+          <p class="text-xs font-semibold text-blue-600 dark:text-blue-400">FSc Pre-Engineering (2025)</p>
+          <div class="my-3 py-2 bg-indigo-50 dark:bg-slate-900 rounded-xl border border-indigo-200 dark:border-slate-700">
+            <p class="text-2xl font-black text-indigo-600 dark:text-indigo-400">1072 <span class="text-xs text-slate-500">/ 1100</span></p>
+            <p class="text-[11px] font-bold text-slate-600 dark:text-slate-300">Secured NUST SEECS Seat</p>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 italic">"Math and Physics shortcuts taught here are simply unparalleled. Highly recommended!"</p>
+        </div>
+
+        <!-- Topper 4 -->
+        <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 shadow-lg relative overflow-hidden text-center group hover:-translate-y-2 transition-transform duration-300">
+          <div class="w-24 h-24 rounded-full mx-auto overflow-hidden border-4 border-emerald-500 shadow-md">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80" alt="Zainab Fatima" class="w-full h-full object-cover">
+          </div>
+          <h3 class="font-bold text-lg text-slate-900 dark:text-white mt-4">Zainab Fatima</h3>
+          <p class="text-xs font-semibold text-blue-600 dark:text-blue-400">Matric Science (2025)</p>
+          <div class="my-3 py-2 bg-emerald-50 dark:bg-slate-900 rounded-xl border border-emerald-200 dark:border-slate-700">
+            <p class="text-2xl font-black text-emerald-600 dark:text-emerald-400">1078 <span class="text-xs text-slate-500">/ 1100</span></p>
+            <p class="text-[11px] font-bold text-slate-600 dark:text-slate-300">98% in Science Group</p>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 italic">"The teachers give individual attention to every student. Homework checking is very thorough."</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== CAMPUS FACILITIES & GALLERY ==================== -->
+  <section id="facilities" class="py-16 sm:py-24 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300 text-xs font-bold uppercase tracking-wider mb-2">
+          Campus Life & Infrastructure
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight font-['Poppins']">
+          World-Class Academic Infrastructure
+        </h2>
+        <p class="text-slate-600 dark:text-slate-400 mt-2 text-sm sm:text-base">
+          Equipped with air-conditioned multimedia classrooms, modern science laboratories, high-speed computer labs, and a quiet reference library.
+        </p>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Gallery 1 -->
+        <div class="gallery-thumb gallery-img-container group relative rounded-2xl overflow-hidden shadow-lg aspect-[16/10] cursor-pointer">
+          <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=800&q=80" alt="Main Lecture Hall" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex items-end p-5">
+            <div>
+              <p class="text-amber-400 text-xs font-bold uppercase tracking-wider">Facility</p>
+              <h4 class="text-white font-bold text-base">Main Modern Lecture Hall</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery 2 -->
+        <div class="gallery-thumb gallery-img-container group relative rounded-2xl overflow-hidden shadow-lg aspect-[16/10] cursor-pointer">
+          <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=800&q=80" alt="Science Laboratory" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex items-end p-5">
+            <div>
+              <p class="text-amber-400 text-xs font-bold uppercase tracking-wider">Laboratory</p>
+              <h4 class="text-white font-bold text-base">High-Tech Physics & Chemistry Labs</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery 3 -->
+        <div class="gallery-thumb gallery-img-container group relative rounded-2xl overflow-hidden shadow-lg aspect-[16/10] cursor-pointer">
+          <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=800&q=80" alt="Smart Classrooms" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex items-end p-5">
+            <div>
+              <p class="text-amber-400 text-xs font-bold uppercase tracking-wider">Classrooms</p>
+              <h4 class="text-white font-bold text-base">Smart Air-Conditioned Classrooms</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery 4 -->
+        <div class="gallery-thumb gallery-img-container group relative rounded-2xl overflow-hidden shadow-lg aspect-[16/10] cursor-pointer">
+          <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=800&q=80" alt="Prize Distribution Ceremony" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex items-end p-5">
+            <div>
+              <p class="text-amber-400 text-xs font-bold uppercase tracking-wider">Annual Ceremony</p>
+              <h4 class="text-white font-bold text-base">Position Holders Award Ceremony</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery 5 -->
+        <div class="gallery-thumb gallery-img-container group relative rounded-2xl overflow-hidden shadow-lg aspect-[16/10] cursor-pointer">
+          <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80" alt="Study Circle" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex items-end p-5">
+            <div>
+              <p class="text-amber-400 text-xs font-bold uppercase tracking-wider">Environment</p>
+              <h4 class="text-white font-bold text-base">Collaborative Study Circles</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery 6 -->
+        <div class="gallery-thumb gallery-img-container group relative rounded-2xl overflow-hidden shadow-lg aspect-[16/10] cursor-pointer">
+          <img src="https://images.unsplash.com/photo-1568667256549-094345857637?auto=format&fit=crop&w=800&q=80" alt="Library" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex items-end p-5">
+            <div>
+              <p class="text-amber-400 text-xs font-bold uppercase tracking-wider">Library</p>
+              <h4 class="text-white font-bold text-base">Central Reference & Past Paper Library</h4>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== NOTICE BOARD & UPCOMING EVENTS ==================== -->
+  <section id="notices" class="py-16 sm:py-24 bg-slate-50 dark:bg-slate-900/60 border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+        
+        <!-- Left Column: Notice Board -->
+        <div class="lg:col-span-7">
+          <div class="flex items-center justify-between mb-6">
+            <div>
+              <span class="text-xs font-bold uppercase text-blue-600 dark:text-blue-400 tracking-wider">Official Updates</span>
+              <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white font-['Poppins']">Academy Notice Board</h2>
+            </div>
+            <span class="px-3 py-1 rounded-full text-xs font-semibold bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300">Updated Daily</span>
+          </div>
+
+          <div class="space-y-4">
+            
+            <!-- Notice 1 -->
+            <div class="p-5 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-sm hover:border-blue-500 transition-colors">
+              <div class="flex items-start justify-between gap-4">
+                <div class="flex items-start gap-3.5">
+                  <div class="w-12 h-12 rounded-xl bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex flex-col items-center justify-center shrink-0">
+                    <span class="text-xs font-bold uppercase">SEP</span>
+                    <span class="text-base font-black">20</span>
+                  </div>
+                  <div>
+                    <span class="text-[11px] font-bold px-2 py-0.5 rounded bg-emerald-100 dark:bg-emerald-900/50 text-emerald-700 dark:text-emerald-300">Admission Alert</span>
+                    <h4 class="font-bold text-slate-900 dark:text-white text-base mt-1">Scholarship Assessment Test 2026</h4>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Written test for 9th, 10th and FSc students seeking up to 50% merit concessions. Timing: 10:00 AM sharp at Main Campus.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Notice 2 -->
+            <div class="p-5 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-sm hover:border-blue-500 transition-colors">
+              <div class="flex items-start justify-between gap-4">
+                <div class="flex items-start gap-3.5">
+                  <div class="w-12 h-12 rounded-xl bg-amber-100 dark:bg-amber-900/50 text-amber-600 dark:text-amber-400 flex flex-col items-center justify-center shrink-0">
+                    <span class="text-xs font-bold uppercase">SEP</span>
+                    <span class="text-base font-black">25</span>
+                  </div>
+                  <div>
+                    <span class="text-[11px] font-bold px-2 py-0.5 rounded bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300">Examinations</span>
+                    <h4 class="font-bold text-slate-900 dark:text-white text-base mt-1">1st Term Round-1 Date Sheet Announced</h4>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Full-syllabus test series date sheet for 10th and 12th class has been posted. Roll numbers available at the administration office.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Notice 3 -->
+            <div class="p-5 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-sm hover:border-blue-500 transition-colors">
+              <div class="flex items-start justify-between gap-4">
+                <div class="flex items-start gap-3.5">
+                  <div class="w-12 h-12 rounded-xl bg-emerald-100 dark:bg-emerald-900/50 text-emerald-600 dark:text-emerald-400 flex flex-col items-center justify-center shrink-0">
+                    <span class="text-xs font-bold uppercase">OCT</span>
+                    <span class="text-base font-black">02</span>
+                  </div>
+                  <div>
+                    <span class="text-[11px] font-bold px-2 py-0.5 rounded bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300">PTM Notice</span>
+                    <h4 class="font-bold text-slate-900 dark:text-white text-base mt-1">Monthly Parents-Teacher Meeting (PTM)</h4>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">All parents are cordially invited to review their children's monthly test answer sheets and discuss progress with professors.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right Column: Student Resources & Downloads -->
+        <div class="lg:col-span-5">
+          <div class="bg-gradient-to-br from-blue-900 to-indigo-950 text-white rounded-3xl p-6 sm:p-8 shadow-2xl relative overflow-hidden">
+            <div class="relative z-10">
+              <span class="bg-blue-800/80 text-blue-200 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">Free Resources</span>
+              <h3 class="text-2xl font-black mt-3 font-['Poppins']">Download Syllabus & Prospectus</h3>
+              <p class="text-blue-200 text-sm mt-2 leading-relaxed">
+                Get the official 2026 Academic Prospectus containing fee structures, scholarship rules, test timetables, and past papers guide.
+              </p>
+
+              <div class="mt-6 space-y-3">
+                <div class="p-3 rounded-xl bg-white/10 hover:bg-white/15 backdrop-blur-sm border border-white/10 flex items-center justify-between cursor-pointer transition-colors" onclick="showToast('Downloading Aziz Academy Prospectus 2026...', 'info')">
+                  <div class="flex items-center gap-3">
+                    <i class="fas fa-file-pdf text-red-400 text-xl"></i>
+                    <div>
+                      <h5 class="text-sm font-bold">Official Prospectus 2026.pdf</h5>
+                      <p class="text-[11px] text-blue-300">Complete curriculum & rules (3.8 MB)</p>
+                    </div>
+                  </div>
+                  <i class="fas fa-download text-sm text-blue-200"></i>
+                </div>
+
+                <div class="p-3 rounded-xl bg-white/10 hover:bg-white/15 backdrop-blur-sm border border-white/10 flex items-center justify-between cursor-pointer transition-colors" onclick="showToast('Downloading Test Session Date Sheet 2026...', 'info')">
+                  <div class="flex items-center gap-3">
+                    <i class="fas fa-calendar-alt text-amber-400 text-xl"></i>
+                    <div>
+                      <h5 class="text-sm font-bold">Board Test Series Schedule.pdf</h5>
+                      <p class="text-[11px] text-blue-300">Weekly test dates (1.2 MB)</p>
+                    </div>
+                  </div>
+                  <i class="fas fa-download text-sm text-blue-200"></i>
+                </div>
+
+                <div class="p-3 rounded-xl bg-white/10 hover:bg-white/15 backdrop-blur-sm border border-white/10 flex items-center justify-between cursor-pointer transition-colors" onclick="showToast('Downloading Sample Diagnostic Test...', 'info')">
+                  <div class="flex items-center gap-3">
+                    <i class="fas fa-clipboard-check text-emerald-400 text-xl"></i>
+                    <div>
+                      <h5 class="text-sm font-bold">Sample Scholarship Mock Paper.pdf</h5>
+                      <p class="text-[11px] text-blue-300">Pattern paper with answer key (2.1 MB)</p>
+                    </div>
+                  </div>
+                  <i class="fas fa-download text-sm text-blue-200"></i>
+                </div>
+              </div>
+
+              <div class="mt-8 pt-4 border-t border-white/10">
+                <button onclick="openAdmissionModal()" class="w-full py-3.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-sm text-center shadow-lg transition-all flex items-center justify-center gap-2">
+                  <i class="fas fa-check-circle"></i> Register For Online Admission
+                </button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== FAQS ACCORDION ==================== -->
+  <section class="py-16 sm:py-24 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-xs font-bold uppercase text-blue-600 dark:text-blue-400 tracking-wider">Got Questions?</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight font-['Poppins'] mt-1">
+          Frequently Asked Questions
+        </h2>
+        <p class="text-slate-600 dark:text-slate-400 mt-2 text-sm">
+          Everything you need to know about admissions, fees, test sessions, and academy timings.
+        </p>
+      </div>
+
+      <div class="space-y-4">
+        
+        <!-- FAQ 1 -->
+        <div class="faq-item border border-slate-200 dark:border-slate-700 rounded-2xl overflow-hidden">
+          <button class="faq-header w-full px-6 py-4 text-left flex items-center justify-between gap-4 bg-slate-50 dark:bg-slate-800/60 hover:bg-slate-100 transition-colors">
+            <span class="font-bold text-sm sm:text-base text-slate-800 dark:text-slate-100">What is the admission procedure at Aziz Academy?</span>
+            <i class="faq-icon fas fa-chevron-down text-slate-400 text-xs transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content hidden px-6 py-4 text-sm text-slate-600 dark:text-slate-300 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 leading-relaxed">
+            You can apply online via our website form or visit the academy campus in person. Once submitted, bring your generated Admission Token Slip, 2 passport-size photographs, and a copy of your previous board result card to complete verification.
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item border border-slate-200 dark:border-slate-700 rounded-2xl overflow-hidden">
+          <button class="faq-header w-full px-6 py-4 text-left flex items-center justify-between gap-4 bg-slate-50 dark:bg-slate-800/60 hover:bg-slate-100 transition-colors">
+            <span class="font-bold text-sm sm:text-base text-slate-800 dark:text-slate-100">Are there separate classes for female students?</span>
+            <i class="faq-icon fas fa-chevron-down text-slate-400 text-xs transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content hidden px-6 py-4 text-sm text-slate-600 dark:text-slate-300 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 leading-relaxed">
+            Yes, absolutely. We maintain completely separate classrooms and dedicated batches for male and female students with separate entrance corridors and female staff supervision for utmost comfort and discipline.
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item border border-slate-200 dark:border-slate-700 rounded-2xl overflow-hidden">
+          <button class="faq-header w-full px-6 py-4 text-left flex items-center justify-between gap-4 bg-slate-50 dark:bg-slate-800/60 hover:bg-slate-100 transition-colors">
+            <span class="font-bold text-sm sm:text-base text-slate-800 dark:text-slate-100">How do merit scholarships work?</span>
+            <i class="faq-icon fas fa-chevron-down text-slate-400 text-xs transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content hidden px-6 py-4 text-sm text-slate-600 dark:text-slate-300 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 leading-relaxed">
+            Students securing 90%+ in their previous board exams are eligible for up to 50% tuition waiver. Concessions are also available for orphans, Hafiz-e-Quran, and siblings of currently enrolled students. You can calculate your exact scholarship using our interactive Fee Calculator.
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item border border-slate-200 dark:border-slate-700 rounded-2xl overflow-hidden">
+          <button class="faq-header w-full px-6 py-4 text-left flex items-center justify-between gap-4 bg-slate-50 dark:bg-slate-800/60 hover:bg-slate-100 transition-colors">
+            <span class="font-bold text-sm sm:text-base text-slate-800 dark:text-slate-100">How are parents informed about student test results and attendance?</span>
+            <i class="faq-icon fas fa-chevron-down text-slate-400 text-xs transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content hidden px-6 py-4 text-sm text-slate-600 dark:text-slate-300 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 leading-relaxed">
+            Daily attendance is tracked through computerized biometric/scanner check-in, and instant SMS alerts are dispatched in case of absence. Test results are processed via OMR scanners and sent via WhatsApp every Monday, followed by monthly Parent-Teacher Meetings.
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item border border-slate-200 dark:border-slate-700 rounded-2xl overflow-hidden">
+          <button class="faq-header w-full px-6 py-4 text-left flex items-center justify-between gap-4 bg-slate-50 dark:bg-slate-800/60 hover:bg-slate-100 transition-colors">
+            <span class="font-bold text-sm sm:text-base text-slate-800 dark:text-slate-100">Is transport facility available for distant areas?</span>
+            <i class="faq-icon fas fa-chevron-down text-slate-400 text-xs transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content hidden px-6 py-4 text-sm text-slate-600 dark:text-slate-300 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 leading-relaxed">
+            Yes, safe air-conditioned vans and pick & drop services operate across major city routes. Transport charges are nominal and vary by distance.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT US & CAMPUS LOCATION ==================== -->
+  <section id="contact" class="py-16 sm:py-24 bg-slate-50 dark:bg-slate-900/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+        
+        <!-- Left Contact Info -->
+        <div class="lg:col-span-5 space-y-6">
+          <div>
+            <span class="text-xs font-bold uppercase text-blue-600 dark:text-blue-400 tracking-wider">Get in Touch</span>
+            <h2 class="text-3xl sm:text-4xl font-black text-slate-900 dark:text-white font-['Poppins'] mt-1">Visit or Contact Us</h2>
+            <p class="text-slate-600 dark:text-slate-400 text-sm mt-2">
+              Our admission officers and academic counselors are available to guide you Monday through Saturday.
+            </p>
+          </div>
+
+          <!-- Contact Details Cards -->
+          <div class="space-y-4">
+            <div class="p-4 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-sm text-slate-900 dark:text-white">Main Campus Address</h4>
+                <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Plot 42, Academic Boulevard, Main Education Block, Gulberg / Saddar, Pakistan</p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-emerald-100 dark:bg-emerald-900/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-sm text-slate-900 dark:text-white">WhatsApp Helpline</h4>
+                <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">+92 (300) 123-4567 | +92 (321) 987-6543</p>
+                <a href="https://wa.me/923001234567" target="_blank" class="text-xs font-semibold text-emerald-600 dark:text-emerald-400 hover:underline mt-1 inline-block">Direct Chat on WhatsApp &rarr;</a>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-amber-100 dark:bg-amber-900/50 text-amber-600 dark:text-amber-400 flex items-center justify-center shrink-0">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-sm text-slate-900 dark:text-white">Office & Visiting Hours</h4>
+                <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Monday to Saturday: 8:00 AM – 8:30 PM (Friday break: 1:00 PM – 2:30 PM)</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Simulated Map Widget -->
+          <div class="rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-md bg-slate-200 dark:bg-slate-800 h-48 relative flex items-center justify-center">
+            <div class="text-center p-4">
+              <i class="fas fa-map-marked-alt text-3xl text-blue-600 dark:text-blue-400"></i>
+              <h5 class="font-bold text-sm text-slate-800 dark:text-white mt-2">Aziz Academy Central Campus</h5>
+              <p class="text-xs text-slate-500 dark:text-slate-400">Centrally located near Metro Bus / Transit Stop</p>
+              <a href="https://maps.google.com" target="_blank" class="mt-2 inline-block px-3 py-1 bg-blue-600 text-white rounded-lg text-xs font-semibold hover:bg-blue-700">Open in Google Maps</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Quick Contact Form -->
+        <div class="lg:col-span-7 bg-white dark:bg-slate-800 rounded-3xl p-6 sm:p-10 border border-slate-200 dark:border-slate-700 shadow-xl">
+          <span class="text-xs font-bold uppercase text-blue-600 dark:text-blue-400 tracking-wider">Quick Inquiry</span>
+          <h3 class="text-2xl font-black text-slate-900 dark:text-white font-['Poppins'] mt-1">Send Us a Message</h3>
+          <p class="text-slate-500 dark:text-slate-400 text-xs sm:text-sm mt-1">
+            Fill out this quick form and our counseling team will call you back within 24 hours.
+          </p>
+
+          <form id="main-contact-form" class="mt-6 space-y-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-1">Your Name *</label>
+                <input id="contact-name" type="text" required placeholder="e.g. Muhammad Ali" class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-white text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none">
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-1">Phone / WhatsApp Number *</label>
+                <input id="contact-phone" type="tel" required placeholder="0300-1234567" class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-white text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none">
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-1">Program of Interest</label>
+              <select id="contact-program" class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-white text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                <option>Matriculation (9th & 10th)</option>
+                <option>FSc Pre-Medical</option>
+                <option>FSc Pre-Engineering</option>
+                <option>ICS Computer Science</option>
+                <option>MDCAT Crash Batch 2026</option>
+                <option>ECAT / NUST Preparation</option>
+                <option>Spoken English / IT Course</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-1">Your Question / Inquiry</label>
+              <textarea id="contact-message" rows="4" placeholder="How can we assist you?" class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-white text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"></textarea>
+            </div>
+
+            <button type="submit" class="w-full py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-lg shadow-blue-500/25 transition-all flex items-center justify-center gap-2">
+              <i class="fas fa-paper-plane"></i> Send Inquiry
+            </button>
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="bg-slate-950 text-slate-400 text-sm border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+        
+        <!-- Academy Col -->
+        <div class="lg:col-span-2">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white font-bold">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div>
+              <h3 class="font-extrabold text-xl text-white tracking-tight font-['Poppins']">AZIZ ACADEMY</h3>
+              <p class="text-xs text-amber-500 font-semibold font-['Amiri']">عزیز اکیڈمی - علم اور کامیابی کا سفر</p>
+            </div>
+          </div>
+          <p class="mt-4 text-xs sm:text-sm text-slate-400 leading-relaxed pr-6">
+            Aziz Academy is dedicated to providing superior educational coaching, fostering intellectual curiosity, and preparing students for extraordinary achievements in Board Examinations and competitive university admissions.
+          </p>
+          <div class="flex items-center gap-4 mt-6">
+            <a href="https://wa.me/923001234567" target="_blank" class="w-9 h-9 rounded-full bg-slate-800 hover:bg-emerald-600 text-white flex items-center justify-center transition-colors"><i class="fab fa-whatsapp"></i></a>
+            <a href="#contact" class="w-9 h-9 rounded-full bg-slate-800 hover:bg-blue-600 text-white flex items-center justify-center transition-colors"><i class="fab fa-facebook-f"></i></a>
+            <a href="#contact" class="w-9 h-9 rounded-full bg-slate-800 hover:bg-red-600 text-white flex items-center justify-center transition-colors"><i class="fab fa-youtube"></i></a>
+            <a href="#contact" class="w-9 h-9 rounded-full bg-slate-800 hover:bg-pink-600 text-white flex items-center justify-center transition-colors"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="font-bold text-white text-sm uppercase tracking-wider mb-4">Quick Navigation</h4>
+          <ul class="space-y-2.5 text-xs sm:text-sm">
+            <li><a href="#home" class="hover:text-white transition-colors">Home Page</a></li>
+            <li><a href="#about" class="hover:text-white transition-colors">About Us</a></li>
+            <li><a href="#courses" class="hover:text-white transition-colors">Course Offerings</a></li>
+            <li><a href="#calculator" class="hover:text-white transition-colors">Fee Calculator</a></li>
+            <li><a href="#toppers" class="hover:text-white transition-colors">Position Holders</a></li>
+            <li><a href="#facilities" class="hover:text-white transition-colors">Campus Gallery</a></li>
+          </ul>
+        </div>
+
+        <!-- Programs -->
+        <div>
+          <h4 class="font-bold text-white text-sm uppercase tracking-wider mb-4">Academics</h4>
+          <ul class="space-y-2.5 text-xs sm:text-sm">
+            <li><a href="#courses" class="hover:text-white transition-colors">Matric 9th & 10th</a></li>
+            <li><a href="#courses" class="hover:text-white transition-colors">FSc Pre-Medical</a></li>
+            <li><a href="#courses" class="hover:text-white transition-colors">FSc Pre-Engineering</a></li>
+            <li><a href="#courses" class="hover:text-white transition-colors">ICS Computer Science</a></li>
+            <li><a href="#courses" class="hover:text-white transition-colors">MDCAT Crash Prep</a></li>
+            <li><a href="#courses" class="hover:text-white transition-colors">ECAT / NUST Prep</a></li>
+          </ul>
+        </div>
+
+        <!-- Admissions & Contact -->
+        <div>
+          <h4 class="font-bold text-white text-sm uppercase tracking-wider mb-4">Admissions</h4>
+          <ul class="space-y-2.5 text-xs sm:text-sm">
+            <li><button onclick="openAdmissionModal()" class="text-amber-400 hover:underline">Apply Online Now</button></li>
+            <li><a href="#notices" class="hover:text-white transition-colors">Scholarship Test</a></li>
+            <li><a href="#calculator" class="hover:text-white transition-colors">Fee Breakdown</a></li>
+            <li><a href="#contact" class="hover:text-white transition-colors">Help Desk</a></li>
+            <li><span class="text-xs text-slate-500">Helpline: +92 300 1234567</span></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="mt-12 pt-8 border-t border-slate-800 text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p>© 2026 Aziz Academy (عزیز اکیڈمی). All Rights Reserved. Empowering Education in Pakistan.</p>
+        <p class="font-medium text-slate-400">Developed with ❤️ for Academic Excellence</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== FLOATING QUICK ACTION BUTTONS ==================== -->
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/923001234567?text=Assalam-o-Alaikum%20Aziz%20Academy,%20I%20want%20to%20inquire%20about%20admissions." target="_blank" class="fixed bottom-6 left-6 z-40 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-all group" aria-label="Direct WhatsApp Inquiry">
+    <i class="fab fa-whatsapp text-3xl"></i>
+    <span class="absolute left-16 bg-slate-900 text-white text-xs font-bold px-3 py-1.5 rounded-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none shadow-lg">
+      Chat with Admission Office
+    </span>
+  </a>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="fixed bottom-6 right-6 z-40 bg-blue-600 hover:bg-blue-700 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-xl opacity-0 pointer-events-none transition-all duration-300" aria-label="Back to Top">
+    <i class="fas fa-arrow-up text-sm"></i>
+  </button>
+
+  <!-- ==================== MODAL 1: ONLINE ADMISSION FORM ==================== -->
+  <div id="admission-modal" class="modal-backdrop fixed inset-0 bg-slate-950/70 backdrop-blur-sm z-50 flex items-center justify-center p-4 overflow-y-auto">
+    <div class="modal-content-box bg-white dark:bg-slate-900 rounded-3xl max-w-2xl w-full p-6 sm:p-8 border border-slate-200 dark:border-slate-800 shadow-2xl my-8 max-h-[90vh] overflow-y-auto">
+      
+      <div class="flex items-center justify-between pb-4 border-b border-slate-200 dark:border-slate-800">
+        <div>
+          <span class="text-xs font-bold text-amber-500 uppercase tracking-wider">Session 2026 - 2027</span>
+          <h3 class="text-2xl font-black text-slate-900 dark:text-white font-['Poppins']">Online Admission Application</h3>
+        </div>
+        <button class="modal-close-btn p-2 rounded-xl text-slate-400 hover:text-slate-700 dark:hover:text-white text-lg">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <form id="online-admission-form" class="mt-6 space-y-4">
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-1">Student Full Name *</label>
+            <input id="adm-name" type="text" required placeholder="e.g. Fatima Noor" class="w-full px-4 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-white text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-1">Father / Guardian Name *</label>
+            <input id="adm-father" type="text" required placeholder="e.g. Muhammad Noor" class="w-full px-4 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-white text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-1">Primary Phone Number *</label>
+            <input id="adm-phone" type="tel" required placeholder="0300-1234567" class="w-full px-4 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-white text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-1">WhatsApp Number (For Reports)</label>
+            <input id="adm-whatsapp" type="tel" placeholder="0300-1234567" class="w-full px-4 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-white text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-1">Select Program / Class *</label>
+            <select id="adm-class" required class="w-full px-4 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-white text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none">
+              <option value="9th Science">Class 9th (Science Group)</option>
+              <option value="10th Science">Class 10th (Science Group)</option>
+              <option value="FSc Pre-Medical">FSc Pre-Medical (Part 1 / Part 2)</option>
+              <option value="FSc Pre-Engineering">FSc Pre-Engineering (Part 1 / Part 2)</option>
+              <option value="ICS Computer Science">ICS (Computer Science / Math)</option>
+              <option value="MDCAT Prep">MDCAT Full Test & Crash Batch</option>
+              <option value="ECAT Prep">ECAT & Engineering Entrance Batch</option>
+              <option value="Spoken English">Spoken English & IELTS Masterclass</option>
+              <option value="IT Bootcamp">Python & Web Bootcamp</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-1">Preferred Shift *</label>
+            <select id="adm-shift" required class="w-full px-4 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-white text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none">
+              <option value="Evening Regular (3:30 PM - 7:30 PM)">Evening Regular (3:30 PM - 7:30 PM)</option>
+              <option value="Morning Shift (8:00 AM - 1:30 PM)">Morning Shift (8:00 AM - 1:30 PM)</option>
+              <option value="Weekend Super Batch (Sat & Sun)">Weekend Super Batch (Sat & Sun)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-1">Student B-Form / CNIC</label>
+            <input id="adm-cnic" type="text" placeholder="35201-XXXXXXX-X" class="w-full px-4 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-white text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-1">Email Address (Optional)</label>
+            <input id="adm-email" type="email" placeholder="student@example.com" class="w-full px-4 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-white text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-1">Previous School / Marks (%)</label>
+            <input id="adm-marks" type="text" placeholder="e.g. 920/1100 (83%)" class="w-full px-4 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-white text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-1">Residential Address</label>
+            <input id="adm-address" type="text" placeholder="House / Street / Colony, City" class="w-full px-4 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-white text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none">
+          </div>
+        </div>
+
+        <div class="p-3 bg-blue-50 dark:bg-blue-950/40 rounded-xl text-xs text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-900 flex items-center gap-2">
+          <i class="fas fa-info-circle text-base"></i>
+          <span>Submitting this form immediately generates your official provisional <strong>Admission Slip with Token ID</strong>.</span>
+        </div>
+
+        <div class="pt-2 flex items-center justify-end gap-3">
+          <button type="button" class="modal-close-btn px-5 py-2.5 rounded-xl bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 text-sm font-semibold">
+            Cancel
+          </button>
+          <button type="submit" class="px-7 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold shadow-lg shadow-blue-500/25 flex items-center gap-2">
+            <i class="fas fa-check"></i> Submit Application
+          </button>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+
+  <!-- ==================== MODAL 2: PRINTABLE ADMISSION SLIP ==================== -->
+  <div id="slip-modal" class="modal-backdrop fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 overflow-y-auto">
+    <div class="modal-content-box bg-white text-slate-900 rounded-3xl max-w-2xl w-full p-6 sm:p-8 shadow-2xl my-8 border-4 border-blue-900">
+      
+      <!-- Printable Slip Content -->
+      <div id="admission-slip-printable">
+        
+        <!-- Slip Header -->
+        <div class="flex items-center justify-between pb-5 border-b-2 border-slate-900">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-xl bg-blue-900 text-white flex items-center justify-center font-bold text-xl">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div>
+              <h2 class="text-2xl font-black tracking-tight text-blue-950 font-['Poppins']">AZIZ ACADEMY</h2>
+              <p class="text-xs font-bold text-slate-600">Official Provisional Admission Confirmation Slip</p>
+            </div>
+          </div>
+
+          <div class="text-right">
+            <span class="text-[11px] font-bold text-slate-500 uppercase">Application Token</span>
+            <p id="slip-token-id" class="text-xl font-black text-blue-900 font-mono">AZ-2026-0000</p>
+            <p id="slip-date" class="text-[11px] text-slate-500">Date</p>
+          </div>
+        </div>
+
+        <!-- Student Data Grid -->
+        <div class="mt-6 grid grid-cols-2 gap-4 text-xs sm:text-sm">
+          <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+            <span class="text-[11px] font-bold text-slate-500 uppercase">Applicant Name</span>
+            <p id="slip-name" class="font-bold text-slate-900 text-base mt-0.5">-</p>
+          </div>
+
+          <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+            <span class="text-[11px] font-bold text-slate-500 uppercase">Father's Name</span>
+            <p id="slip-father" class="font-bold text-slate-900 text-base mt-0.5">-</p>
+          </div>
+
+          <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+            <span class="text-[11px] font-bold text-slate-500 uppercase">Enrolled Program</span>
+            <p id="slip-course" class="font-bold text-blue-900 mt-0.5">-</p>
+          </div>
+
+          <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+            <span class="text-[11px] font-bold text-slate-500 uppercase">Assigned Shift</span>
+            <p id="slip-shift" class="font-bold text-slate-900 mt-0.5">-</p>
+          </div>
+
+          <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+            <span class="text-[11px] font-bold text-slate-500 uppercase">Contact Number</span>
+            <p id="slip-phone" class="font-bold text-slate-900 mt-0.5">-</p>
+          </div>
+
+          <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+            <span class="text-[11px] font-bold text-slate-500 uppercase">WhatsApp Number</span>
+            <p id="slip-whatsapp" class="font-bold text-slate-900 mt-0.5">-</p>
+          </div>
+
+          <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+            <span class="text-[11px] font-bold text-slate-500 uppercase">Previous Marks / Grade</span>
+            <p id="slip-marks" class="font-bold text-emerald-700 mt-0.5">-</p>
+          </div>
+
+          <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+            <span class="text-[11px] font-bold text-slate-500 uppercase">Residential Address</span>
+            <p id="slip-address" class="font-bold text-slate-900 mt-0.5">-</p>
+          </div>
+        </div>
+
+        <!-- Reporting Instructions -->
+        <div class="mt-6 p-4 bg-amber-50 rounded-xl border border-amber-300 text-xs">
+          <h5 class="font-bold text-amber-900 flex items-center gap-2">
+            <i class="fas fa-exclamation-triangle"></i> Important Instructions for Verification:
+          </h5>
+          <ul class="mt-2 space-y-1 text-amber-950 list-disc list-inside">
+            <li>Please report to the Academy Admission Office on: <strong id="slip-report-date">-</strong>.</li>
+            <li>Bring 2 recent passport-size photographs & 1 copy of student B-Form / CNIC.</li>
+            <li>Bring attested photocopy of previous school/board result card for scholarship validation.</li>
+          </ul>
+        </div>
+
+        <!-- QR Simulation & Stamp Area -->
+        <div class="mt-6 pt-4 border-t border-slate-300 flex items-center justify-between text-xs text-slate-500">
+          <div class="flex items-center gap-3">
+            <div class="w-16 h-16 bg-slate-100 border border-slate-300 rounded flex flex-col items-center justify-center text-center p-1">
+              <i class="fas fa-qrcode text-2xl text-slate-800"></i>
+              <span class="text-[8px] font-mono text-slate-500">VERIFIED</span>
+            </div>
+            <div>
+              <p class="font-bold text-slate-800">Aziz Academy Administration</p>
+              <p class="text-[10px]">Campus Phone: +92 300 1234567</p>
+            </div>
+          </div>
+
+          <div class="text-right">
+            <div class="w-32 border-b border-slate-400 mb-1"></div>
+            <p class="text-[10px] font-semibold text-slate-600">Authorized Signature & Stamp</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Action Buttons (Hidden during Print) -->
+      <div class="no-print mt-8 pt-4 border-t border-slate-200 flex items-center justify-end gap-3">
+        <button class="modal-close-btn px-4 py-2.5 rounded-xl bg-slate-100 text-slate-700 text-xs font-bold hover:bg-slate-200">
+          Close
+        </button>
+        <button onclick="printAdmissionSlip()" class="px-6 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shadow-lg flex items-center gap-2">
+          <i class="fas fa-print"></i> Print Admission Slip
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ==================== MODAL 3: COURSE SYLLABUS DETAILS ==================== -->
+  <div id="syllabus-modal" class="modal-backdrop fixed inset-0 bg-slate-950/70 backdrop-blur-sm z-50 flex items-center justify-center p-4 overflow-y-auto">
+    <div class="modal-content-box bg-white dark:bg-slate-900 rounded-3xl max-w-2xl w-full p-6 sm:p-8 border border-slate-200 dark:border-slate-800 shadow-2xl my-8 max-h-[90vh] overflow-y-auto">
+      
+      <div class="flex items-center justify-between pb-4 border-b border-slate-200 dark:border-slate-800">
+        <div>
+          <span id="modal-course-category" class="text-xs font-bold text-blue-600 dark:text-blue-400 uppercase tracking-wider">Category</span>
+          <h3 id="modal-course-title" class="text-2xl font-black text-slate-900 dark:text-white font-['Poppins']">Course Title</h3>
+        </div>
+        <button class="modal-close-btn p-2 rounded-xl text-slate-400 hover:text-slate-700 dark:hover:text-white text-lg">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <div class="mt-6 space-y-6">
+        
+        <!-- Details Overview -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <div class="p-3 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+            <span class="text-[11px] font-bold text-slate-400 uppercase block">Duration</span>
+            <span id="modal-course-duration" class="text-xs font-bold text-slate-800 dark:text-slate-200">1 Year</span>
+          </div>
+
+          <div class="p-3 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+            <span class="text-[11px] font-bold text-slate-400 uppercase block">Timings</span>
+            <span id="modal-course-timing" class="text-xs font-bold text-slate-800 dark:text-slate-200">Evening</span>
+          </div>
+
+          <div class="p-3 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+            <span class="text-[11px] font-bold text-slate-400 uppercase block">Estimated Fee</span>
+            <span id="modal-course-fee" class="text-xs font-bold text-blue-600 dark:text-blue-400">Rs. 8,000/mo</span>
+          </div>
+        </div>
+
+        <!-- Subjects Covered -->
+        <div>
+          <h4 class="text-xs font-bold uppercase text-slate-400 tracking-wider mb-2.5">Key Subjects Covered</h4>
+          <div id="modal-course-subjects" class="flex flex-wrap gap-2">
+            <!-- Populated via JS -->
+          </div>
+        </div>
+
+        <!-- Key Features & Pedagogy -->
+        <div>
+          <h4 class="text-xs font-bold uppercase text-slate-400 tracking-wider mb-2.5">Key Learning Features & Test System</h4>
+          <ul id="modal-course-features" class="space-y-2">
+            <!-- Populated via JS -->
+          </ul>
+        </div>
+
+        <div class="pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center justify-end gap-3">
+          <button class="modal-close-btn px-5 py-2.5 rounded-xl bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 text-xs font-semibold">
+            Close
+          </button>
+          <button id="modal-apply-btn" class="px-6 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shadow-lg">
+            Apply For This Course
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ==================== MODAL 4: GALLERY LIGHTBOX ==================== -->
+  <div id="lightbox-modal" class="modal-backdrop fixed inset-0 bg-slate-950/90 backdrop-blur-md z-50 flex items-center justify-center p-4">
+    <div class="relative max-w-4xl w-full">
+      <button class="modal-close-btn absolute -top-12 right-0 text-white text-2xl hover:text-amber-400">
+        <i class="fas fa-times"></i>
+      </button>
+
+      <div class="rounded-2xl overflow-hidden shadow-2xl bg-black aspect-[16/10] relative flex items-center justify-center">
+        <img id="lightbox-img" src="" alt="Campus Life" class="max-h-full max-w-full object-contain">
+        
+        <!-- Controls -->
+        <button id="lightbox-prev" class="absolute left-4 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-black/60 hover:bg-blue-600 text-white flex items-center justify-center transition-colors">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button id="lightbox-next" class="absolute right-4 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-black/60 hover:bg-blue-600 text-white flex items-center justify-center transition-colors">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <p id="lightbox-caption" class="text-center text-white text-sm font-semibold mt-4">Campus View</p>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container"></div>
+
+  <!-- Custom Client Script -->
+  <script src="script.js"></script>
+</body>
+</html>

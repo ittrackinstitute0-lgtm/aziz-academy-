@@ -1,0 +1,213 @@
+/* ===================================================
+   AZIZ ACADEMY - MODERN STYLING & ANIMATIONS
+   =================================================== */
+
+:root {
+  --primary: #1e40af;       /* Deep Academic Blue */
+  --primary-dark: #1e3a8a;
+  --primary-light: #3b82f6;
+  --accent: #f59e0b;        /* Academic Gold / Amber */
+  --accent-hover: #d97706;
+  --emerald: #10b981;
+  --bg-light: #f8fafc;
+  --text-dark: #0f172a;
+  --card-light: #ffffff;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  color: #1e293b;
+  background-color: #f8fafc;
+  overflow-x: hidden;
+}
+
+/* Urdu typography enhancement */
+.font-urdu {
+  font-family: 'Noto Nastaliq Urdu', 'Amiri', 'Jameel Noori Nastaleeq', serif;
+  line-height: 1.8;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+/* Glassmorphism Classes */
+.glass-header {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.dark .glass-header {
+  background: rgba(15, 23, 42, 0.92);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+.dark .glass-card {
+  background: rgba(30, 41, 59, 0.85);
+  border-color: rgba(51, 65, 85, 0.8);
+}
+
+/* Hero Background Pattern */
+.academic-hero-bg {
+  background: radial-gradient(circle at 10% 20%, rgba(30, 64, 175, 0.08) 0%, transparent 40%),
+              radial-gradient(circle at 90% 80%, rgba(245, 158, 11, 0.08) 0%, transparent 40%),
+              linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
+}
+.dark .academic-hero-bg {
+  background: radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.15) 0%, transparent 40%),
+              radial-gradient(circle at 90% 80%, rgba(245, 158, 11, 0.1) 0%, transparent 40%),
+              linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+
+/* Subtle Shimmer Animation */
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.shimmer-badge {
+  position: relative;
+  overflow: hidden;
+}
+.shimmer-badge::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+  animation: shimmer 2.5s infinite;
+}
+
+/* Floating Animation */
+@keyframes gentleFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.float-animation {
+  animation: gentleFloat 4s ease-in-out infinite;
+}
+
+/* Pulsing Badge */
+@keyframes pulseDot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.85); }
+}
+.pulse-dot {
+  animation: pulseDot 2s infinite ease-in-out;
+}
+
+/* Toast Notifications */
+#toast-container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toast {
+  padding: 14px 20px;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: 500;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  animation: slideInRight 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  min-width: 280px;
+}
+.toast-success { background: #059669; }
+.toast-info { background: #2563eb; }
+.toast-warning { background: #d97706; }
+.toast-error { background: #dc2626; }
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Modal Transitions */
+.modal-backdrop {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease-in-out;
+}
+.modal-backdrop.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-content-box {
+  transform: scale(0.95);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.modal-backdrop.active .modal-content-box {
+  transform: scale(1);
+}
+
+/* Gallery Hover Zoom */
+.gallery-img-container {
+  overflow: hidden;
+}
+.gallery-img-container img {
+  transition: transform 0.5s ease;
+}
+.gallery-img-container:hover img {
+  transform: scale(1.08);
+}
+
+/* Print Styles for Admission Slip */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #admission-slip-printable, #admission-slip-printable * {
+    visibility: visible;
+  }
+  #admission-slip-printable {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-shadow: none !important;
+    border: 2px solid #000 !important;
+    background: #fff !important;
+    color: #000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}
